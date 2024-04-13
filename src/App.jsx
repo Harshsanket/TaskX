@@ -58,11 +58,16 @@ const App = () => {
   return (
 
     <div className="text-white">
-      <div className="flex flex-col justify-end w-full h-40 sm:h-48 text-center">
-        <p className="sm:text-6xl text-4xl font-bold">Task X</p>
+      <div
+        id="Header"
+        className="w-full text-white sm:h-72 h-56 pt-2 pl-2 text-center flex flex-col justify-end pb-12"
+      >
+        <a href="#" className="sm:text-8xl text-5xl font-bold">
+          TaskX
+        </a>
       </div>
 
-      <div className="mt-4 justify-center w-full text-center flex">
+      <div className=" justify-center w-full text-center flex">
         <form
           action=""
           onSubmit={(e) => {formSubmit(e)}}
@@ -71,7 +76,7 @@ const App = () => {
             <div className="flex w-full items-center space-x-2">
               <input
                 type="text"
-                className="border border-black rounded p-2 text-black h-10"
+                className="border border-black rounded p-2 text-black h-10 sm:w-80 sm:h-12"
                 value={inputValue}
                 onChange={(e) => {
                   setInputValue(e.target.value);
@@ -80,7 +85,7 @@ const App = () => {
               />
               <button
                 type="submit"
-                className="bg-sky-600 rounded overflow-hidden h-10 p-2 text-white font-bold"
+                className="bg-sky-600 rounded overflow-hidden h-10 sm:h-12 sm:w-auto p-2 text-white font-bold"
               >
                 <Plus />
               </button>
