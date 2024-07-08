@@ -1,6 +1,6 @@
-# Todo List App
+# TaskX
 
-The Todo List App is a simple web application that allows users to create and manage their daily tasks. Users can add new tasks, mark tasks as completed, and delete tasks as needed.
+The TaskX is an Todo List App it is a simple web application that allows users to create and manage their daily tasks. Users can add new tasks, mark tasks as completed, and delete tasks as needed.
 
 ## Learning Objectives
 
